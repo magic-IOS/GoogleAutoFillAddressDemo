@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_GoogleAutoFillAddressDemo_GoogleAutoFillAddressDemoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_GoogleAutoFillAddressDemo_GoogleAutoFillAddressDemoUITests
+@end

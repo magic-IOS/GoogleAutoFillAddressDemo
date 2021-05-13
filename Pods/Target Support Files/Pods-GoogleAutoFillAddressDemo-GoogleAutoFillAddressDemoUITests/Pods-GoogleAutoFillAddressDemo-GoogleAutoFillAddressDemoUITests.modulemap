@@ -1,0 +1,6 @@
+framework module Pods_GoogleAutoFillAddressDemo_GoogleAutoFillAddressDemoUITests {
+  umbrella header "Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

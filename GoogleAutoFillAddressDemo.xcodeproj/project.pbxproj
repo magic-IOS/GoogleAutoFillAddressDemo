@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18561953264D49D80026EDCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18561952264D49D80026EDCD /* AppDelegate.swift */; };
+		18561955264D49D80026EDCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18561954264D49D80026EDCD /* SceneDelegate.swift */; };
+		18561957264D49D80026EDCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18561956264D49D80026EDCD /* ViewController.swift */; };
+		1856195A264D49D80026EDCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18561958264D49D80026EDCD /* Main.storyboard */; };
+		1856195C264D49DB0026EDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1856195B264D49DB0026EDCD /* Assets.xcassets */; };
+		1856195F264D49DB0026EDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1856195D264D49DB0026EDCD /* LaunchScreen.storyboard */; };
+		1856196A264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18561969264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests.swift */; };
+		18561975264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18561974264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests.swift */; };
+		1856198E264D4A510026EDCD /* GoogleAutoFillUpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18561982264D4A510026EDCD /* GoogleAutoFillUpAddress.swift */; };
+		1856198F264D4A510026EDCD /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18561985264D4A510026EDCD /* DropDownCell.xib */; };
+		18561990264D4A510026EDCD /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18561987264D4A510026EDCD /* DPDKeyboardListener.swift */; };
+		18561991264D4A510026EDCD /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18561988264D4A510026EDCD /* DPDConstants.swift */; };
+		18561992264D4A510026EDCD /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18561989264D4A510026EDCD /* DPDUIView+Extension.swift */; };
+		18561993264D4A510026EDCD /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856198B264D4A510026EDCD /* DropDown.swift */; };
+		18561994264D4A510026EDCD /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856198C264D4A510026EDCD /* DropDownCell.swift */; };
+		18561995264D4A510026EDCD /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856198D264D4A510026EDCD /* DropDown+Appearance.swift */; };
+		2D0D4CE9DF63F342D11A2576 /* Pods_GoogleAutoFillAddressDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A882F5CCD4E36FE466CB05E6 /* Pods_GoogleAutoFillAddressDemoTests.framework */; };
+		6D0605E2202943EBD82578DE /* Pods_GoogleAutoFillAddressDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4130D7B905020092D212D7D5 /* Pods_GoogleAutoFillAddressDemo.framework */; };
+		A706E1617111B2099092242C /* Pods_GoogleAutoFillAddressDemo_GoogleAutoFillAddressDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155C3489C2CA2688DC5BAC57 /* Pods_GoogleAutoFillAddressDemo_GoogleAutoFillAddressDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18561966264D49DC0026EDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18561947264D49D80026EDCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1856194E264D49D80026EDCD;
+			remoteInfo = GoogleAutoFillAddressDemo;
+		};
+		18561971264D49DC0026EDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18561947264D49D80026EDCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1856194E264D49D80026EDCD;
+			remoteInfo = GoogleAutoFillAddressDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		155C3489C2CA2688DC5BAC57 /* Pods_GoogleAutoFillAddressDemo_GoogleAutoFillAddressDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleAutoFillAddressDemo_GoogleAutoFillAddressDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1856194F264D49D80026EDCD /* GoogleAutoFillAddressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAutoFillAddressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18561952264D49D80026EDCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18561954264D49D80026EDCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18561956264D49D80026EDCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18561959264D49D80026EDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1856195B264D49DB0026EDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1856195E264D49DB0026EDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18561960264D49DB0026EDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18561965264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAutoFillAddressDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18561969264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAutoFillAddressDemoTests.swift; sourceTree = "<group>"; };
+		1856196B264D49DC0026EDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18561970264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAutoFillAddressDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18561974264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAutoFillAddressDemoUITests.swift; sourceTree = "<group>"; };
+		18561976264D49DC0026EDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18561982264D4A510026EDCD /* GoogleAutoFillUpAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAutoFillUpAddress.swift; sourceTree = "<group>"; };
+		18561985264D4A510026EDCD /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		18561987264D4A510026EDCD /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		18561988264D4A510026EDCD /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
+		18561989264D4A510026EDCD /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		1856198B264D4A510026EDCD /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		1856198C264D4A510026EDCD /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		1856198D264D4A510026EDCD /* DropDown+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		196D0291F84D364CCB5B1EA4 /* Pods-GoogleAutoFillAddressDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAutoFillAddressDemo.debug.xcconfig"; path = "Target Support Files/Pods-GoogleAutoFillAddressDemo/Pods-GoogleAutoFillAddressDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4130D7B905020092D212D7D5 /* Pods_GoogleAutoFillAddressDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleAutoFillAddressDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C27268E92C8B07692B4DBB6 /* Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9194A4DFC6513D69ACE66D04 /* Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F5BF585A66F9528026EEC4A /* Pods-GoogleAutoFillAddressDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAutoFillAddressDemoTests.release.xcconfig"; path = "Target Support Files/Pods-GoogleAutoFillAddressDemoTests/Pods-GoogleAutoFillAddressDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A882F5CCD4E36FE466CB05E6 /* Pods_GoogleAutoFillAddressDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleAutoFillAddressDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC28224E530138058205C56 /* Pods-GoogleAutoFillAddressDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAutoFillAddressDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleAutoFillAddressDemoTests/Pods-GoogleAutoFillAddressDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3E26A4CC4B6ABA2B274D41 /* Pods-GoogleAutoFillAddressDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAutoFillAddressDemo.release.xcconfig"; path = "Target Support Files/Pods-GoogleAutoFillAddressDemo/Pods-GoogleAutoFillAddressDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1856194C264D49D80026EDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0605E2202943EBD82578DE /* Pods_GoogleAutoFillAddressDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18561962264D49DC0026EDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0D4CE9DF63F342D11A2576 /* Pods_GoogleAutoFillAddressDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1856196D264D49DC0026EDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A706E1617111B2099092242C /* Pods_GoogleAutoFillAddressDemo_GoogleAutoFillAddressDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18561946264D49D80026EDCD = {
+			isa = PBXGroup;
+			children = (
+				18561951264D49D80026EDCD /* GoogleAutoFillAddressDemo */,
+				18561968264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests */,
+				18561973264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests */,
+				18561950264D49D80026EDCD /* Products */,
+				3756E34194320248086E0C03 /* Pods */,
+				1EC8D9CF7D01AED0932E0472 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18561950264D49D80026EDCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1856194F264D49D80026EDCD /* GoogleAutoFillAddressDemo.app */,
+				18561965264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests.xctest */,
+				18561970264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18561951264D49D80026EDCD /* GoogleAutoFillAddressDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18561952264D49D80026EDCD /* AppDelegate.swift */,
+				18561954264D49D80026EDCD /* SceneDelegate.swift */,
+				18561983264D4A510026EDCD /* DropDown */,
+				18561982264D4A510026EDCD /* GoogleAutoFillUpAddress.swift */,
+				18561956264D49D80026EDCD /* ViewController.swift */,
+				18561958264D49D80026EDCD /* Main.storyboard */,
+				1856195B264D49DB0026EDCD /* Assets.xcassets */,
+				1856195D264D49DB0026EDCD /* LaunchScreen.storyboard */,
+				18561960264D49DB0026EDCD /* Info.plist */,
+			);
+			path = GoogleAutoFillAddressDemo;
+			sourceTree = "<group>";
+		};
+		18561968264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18561969264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests.swift */,
+				1856196B264D49DC0026EDCD /* Info.plist */,
+			);
+			path = GoogleAutoFillAddressDemoTests;
+			sourceTree = "<group>";
+		};
+		18561973264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18561974264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests.swift */,
+				18561976264D49DC0026EDCD /* Info.plist */,
+			);
+			path = GoogleAutoFillAddressDemoUITests;
+			sourceTree = "<group>";
+		};
+		18561983264D4A510026EDCD /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				18561984264D4A510026EDCD /* resources */,
+				18561986264D4A510026EDCD /* helpers */,
+				1856198A264D4A510026EDCD /* src */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		18561984264D4A510026EDCD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				18561985264D4A510026EDCD /* DropDownCell.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		18561986264D4A510026EDCD /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18561987264D4A510026EDCD /* DPDKeyboardListener.swift */,
+				18561988264D4A510026EDCD /* DPDConstants.swift */,
+				18561989264D4A510026EDCD /* DPDUIView+Extension.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		1856198A264D4A510026EDCD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1856198B264D4A510026EDCD /* DropDown.swift */,
+				1856198C264D4A510026EDCD /* DropDownCell.swift */,
+				1856198D264D4A510026EDCD /* DropDown+Appearance.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1EC8D9CF7D01AED0932E0472 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4130D7B905020092D212D7D5 /* Pods_GoogleAutoFillAddressDemo.framework */,
+				155C3489C2CA2688DC5BAC57 /* Pods_GoogleAutoFillAddressDemo_GoogleAutoFillAddressDemoUITests.framework */,
+				A882F5CCD4E36FE466CB05E6 /* Pods_GoogleAutoFillAddressDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3756E34194320248086E0C03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				196D0291F84D364CCB5B1EA4 /* Pods-GoogleAutoFillAddressDemo.debug.xcconfig */,
+				ED3E26A4CC4B6ABA2B274D41 /* Pods-GoogleAutoFillAddressDemo.release.xcconfig */,
+				9194A4DFC6513D69ACE66D04 /* Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests.debug.xcconfig */,
+				8C27268E92C8B07692B4DBB6 /* Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests.release.xcconfig */,
+				ACC28224E530138058205C56 /* Pods-GoogleAutoFillAddressDemoTests.debug.xcconfig */,
+				9F5BF585A66F9528026EEC4A /* Pods-GoogleAutoFillAddressDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1856194E264D49D80026EDCD /* GoogleAutoFillAddressDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18561979264D49DC0026EDCD /* Build configuration list for PBXNativeTarget "GoogleAutoFillAddressDemo" */;
+			buildPhases = (
+				001F322363C6CEA6196330B1 /* [CP] Check Pods Manifest.lock */,
+				1856194B264D49D80026EDCD /* Sources */,
+				1856194C264D49D80026EDCD /* Frameworks */,
+				1856194D264D49D80026EDCD /* Resources */,
+				FAE9FB24DA3A4CD9ABCD7AAE /* [CP] Embed Pods Frameworks */,
+				AC7434B6D12E115EA76F1D82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleAutoFillAddressDemo;
+			productName = GoogleAutoFillAddressDemo;
+			productReference = 1856194F264D49D80026EDCD /* GoogleAutoFillAddressDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18561964264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1856197C264D49DC0026EDCD /* Build configuration list for PBXNativeTarget "GoogleAutoFillAddressDemoTests" */;
+			buildPhases = (
+				4C26D00448B4458E29B9482C /* [CP] Check Pods Manifest.lock */,
+				18561961264D49DC0026EDCD /* Sources */,
+				18561962264D49DC0026EDCD /* Frameworks */,
+				18561963264D49DC0026EDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18561967264D49DC0026EDCD /* PBXTargetDependency */,
+			);
+			name = GoogleAutoFillAddressDemoTests;
+			productName = GoogleAutoFillAddressDemoTests;
+			productReference = 18561965264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1856196F264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1856197F264D49DC0026EDCD /* Build configuration list for PBXNativeTarget "GoogleAutoFillAddressDemoUITests" */;
+			buildPhases = (
+				45EB2B534101265E990FE8A2 /* [CP] Check Pods Manifest.lock */,
+				1856196C264D49DC0026EDCD /* Sources */,
+				1856196D264D49DC0026EDCD /* Frameworks */,
+				1856196E264D49DC0026EDCD /* Resources */,
+				C6FEB0C1ED70A093E9D55A0F /* [CP] Embed Pods Frameworks */,
+				31565FFE5E57B15CB9BD4EB5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18561972264D49DC0026EDCD /* PBXTargetDependency */,
+			);
+			name = GoogleAutoFillAddressDemoUITests;
+			productName = GoogleAutoFillAddressDemoUITests;
+			productReference = 18561970264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18561947264D49D80026EDCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1856194E264D49D80026EDCD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					18561964264D49DC0026EDCD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 1856194E264D49D80026EDCD;
+					};
+					1856196F264D49DC0026EDCD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 1856194E264D49D80026EDCD;
+					};
+				};
+			};
+			buildConfigurationList = 1856194A264D49D80026EDCD /* Build configuration list for PBXProject "GoogleAutoFillAddressDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18561946264D49D80026EDCD;
+			productRefGroup = 18561950264D49D80026EDCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1856194E264D49D80026EDCD /* GoogleAutoFillAddressDemo */,
+				18561964264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests */,
+				1856196F264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1856194D264D49D80026EDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1856195F264D49DB0026EDCD /* LaunchScreen.storyboard in Resources */,
+				1856195C264D49DB0026EDCD /* Assets.xcassets in Resources */,
+				1856198F264D4A510026EDCD /* DropDownCell.xib in Resources */,
+				1856195A264D49D80026EDCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18561963264D49DC0026EDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1856196E264D49DC0026EDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		001F322363C6CEA6196330B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleAutoFillAddressDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31565FFE5E57B15CB9BD4EB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45EB2B534101265E990FE8A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C26D00448B4458E29B9482C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleAutoFillAddressDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7434B6D12E115EA76F1D82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo/Pods-GoogleAutoFillAddressDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo/Pods-GoogleAutoFillAddressDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo/Pods-GoogleAutoFillAddressDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6FEB0C1ED70A093E9D55A0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests/Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE9FB24DA3A4CD9ABCD7AAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo/Pods-GoogleAutoFillAddressDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo/Pods-GoogleAutoFillAddressDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleAutoFillAddressDemo/Pods-GoogleAutoFillAddressDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1856194B264D49D80026EDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18561991264D4A510026EDCD /* DPDConstants.swift in Sources */,
+				1856198E264D4A510026EDCD /* GoogleAutoFillUpAddress.swift in Sources */,
+				18561957264D49D80026EDCD /* ViewController.swift in Sources */,
+				18561953264D49D80026EDCD /* AppDelegate.swift in Sources */,
+				18561994264D4A510026EDCD /* DropDownCell.swift in Sources */,
+				18561992264D4A510026EDCD /* DPDUIView+Extension.swift in Sources */,
+				18561990264D4A510026EDCD /* DPDKeyboardListener.swift in Sources */,
+				18561993264D4A510026EDCD /* DropDown.swift in Sources */,
+				18561995264D4A510026EDCD /* DropDown+Appearance.swift in Sources */,
+				18561955264D49D80026EDCD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18561961264D49DC0026EDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1856196A264D49DC0026EDCD /* GoogleAutoFillAddressDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1856196C264D49DC0026EDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18561975264D49DC0026EDCD /* GoogleAutoFillAddressDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18561967264D49DC0026EDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1856194E264D49D80026EDCD /* GoogleAutoFillAddressDemo */;
+			targetProxy = 18561966264D49DC0026EDCD /* PBXContainerItemProxy */;
+		};
+		18561972264D49DC0026EDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1856194E264D49D80026EDCD /* GoogleAutoFillAddressDemo */;
+			targetProxy = 18561971264D49DC0026EDCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18561958264D49D80026EDCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18561959264D49D80026EDCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1856195D264D49DB0026EDCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1856195E264D49DB0026EDCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18561977264D49DC0026EDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18561978264D49DC0026EDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1856197A264D49DC0026EDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196D0291F84D364CCB5B1EA4 /* Pods-GoogleAutoFillAddressDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GoogleAutoFillAddressDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Magic-IOS.GoogleAutoFillAddressDemo.GoogleAutoFillAddressDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1856197B264D49DC0026EDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED3E26A4CC4B6ABA2B274D41 /* Pods-GoogleAutoFillAddressDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GoogleAutoFillAddressDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Magic-IOS.GoogleAutoFillAddressDemo.GoogleAutoFillAddressDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1856197D264D49DC0026EDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC28224E530138058205C56 /* Pods-GoogleAutoFillAddressDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleAutoFillAddressDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Magic-IOS.GoogleAutoFillAddressDemo.GoogleAutoFillAddressDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleAutoFillAddressDemo.app/GoogleAutoFillAddressDemo";
+			};
+			name = Debug;
+		};
+		1856197E264D49DC0026EDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5BF585A66F9528026EEC4A /* Pods-GoogleAutoFillAddressDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleAutoFillAddressDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Magic-IOS.GoogleAutoFillAddressDemo.GoogleAutoFillAddressDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleAutoFillAddressDemo.app/GoogleAutoFillAddressDemo";
+			};
+			name = Release;
+		};
+		18561980264D49DC0026EDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9194A4DFC6513D69ACE66D04 /* Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleAutoFillAddressDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Magic-IOS.GoogleAutoFillAddressDemo.GoogleAutoFillAddressDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleAutoFillAddressDemo;
+			};
+			name = Debug;
+		};
+		18561981264D49DC0026EDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C27268E92C8B07692B4DBB6 /* Pods-GoogleAutoFillAddressDemo-GoogleAutoFillAddressDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleAutoFillAddressDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Magic-IOS.GoogleAutoFillAddressDemo.GoogleAutoFillAddressDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleAutoFillAddressDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1856194A264D49D80026EDCD /* Build configuration list for PBXProject "GoogleAutoFillAddressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18561977264D49DC0026EDCD /* Debug */,
+				18561978264D49DC0026EDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18561979264D49DC0026EDCD /* Build configuration list for PBXNativeTarget "GoogleAutoFillAddressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1856197A264D49DC0026EDCD /* Debug */,
+				1856197B264D49DC0026EDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1856197C264D49DC0026EDCD /* Build configuration list for PBXNativeTarget "GoogleAutoFillAddressDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1856197D264D49DC0026EDCD /* Debug */,
+				1856197E264D49DC0026EDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1856197F264D49DC0026EDCD /* Build configuration list for PBXNativeTarget "GoogleAutoFillAddressDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18561980264D49DC0026EDCD /* Debug */,
+				18561981264D49DC0026EDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18561947264D49D80026EDCD /* Project object */;
+}
